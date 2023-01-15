@@ -24,28 +24,39 @@
     <!--HEADER-->
     <header class="header head">
       <div class="container header-container">
+        <a class="logo size" href="./index.html"
+          >Web<span class="header-logo size">studio</span></a
+        >
         <nav class="nav">
-          <a class="logo size" href="./index.html"
-            >Web<span class="header-logo size">studio</span></a
-          >
           <ul class="menu-hed">
             <li class="menu-headr">
               <a class="menu-link current size" href="#">Studio</a>
             </li>
             <li class="menu-headr">
-              <a class="menu-link logo-name size" href="./portfolio.html">Portfolio</a>
+              <a class="menu-link logo-name size" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="menu-headr logo-name">
               <a class="menu-link logo-name size" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
+        <button class="mobile-bth" type="button">
+          <svg class="burger" width="32" height="22">
+            <use href="./img/sprite.svg#menu-burger"></use>
+          </svg>
+        </button>
         <ul class="menu-contact">
           <li class="contact">
-            <a class="mail size" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="mail size" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contact">
-            <a class="namber size" href="tel:+11(000)1111111">+11(000)1111111</a>
+            <a class="namber size" href="tel:+11(000)1111111"
+              >+11(000)1111111</a
+            >
           </li>
         </ul>
       </div>
@@ -53,11 +64,14 @@
     <main>
       <!--HERO-->
       <section class="hero">
-        <div class="container">
+        <div class="container container-hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="modal-bth" type="button-mod" data-modal-open>Order Service</button>
+          <button class="modal-bth" type="button-mod" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
+
       <!--CONTENT-->
       <section class="content">
         <div class="container">
@@ -71,8 +85,8 @@
               </div>
               <h3 class="title-list-content">Strategy</h3>
               <p class="content-paragraph">
-                Our goal is to identify the business problem to walk away with the perfect and
-                creative solution.
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
               </p>
             </li>
             <li class="description">
@@ -83,8 +97,8 @@
               </div>
               <h3 class="title-list-content">Punctuality</h3>
               <p class="content-paragraph">
-                Bring the key message to the brand's audience for the best price within the shortest
-                possible time.
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
               </p>
             </li>
             <li class="description">
@@ -95,8 +109,8 @@
               </div>
               <h3 class="title-list-content">Diligence</h3>
               <p class="content-paragraph">
-                Research and confirm brands that present the strongest digital growth opportunities
-                and minimize risk.
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
               </p>
             </li>
             <li class="description">
@@ -107,13 +121,14 @@
               </div>
               <h3 class="title-list-content">Technologies</h3>
               <p class="content-paragraph">
-                Design practice focused on digital experiences. We bring forth a deep passion for
-                problem-solving.
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
               </p>
             </li>
           </ul>
         </div>
       </section>
+
       <!--PICTURES-->
       <section class="pictures">
         <div class="container">
@@ -149,6 +164,7 @@
           </ul>
         </div>
       </section>
+
       <!--PHOTOS-->
       <section class="team">
         <div class="container team-container">
@@ -329,6 +345,7 @@
           </ul>
         </div>
       </section>
+      <!-- Customers -->
       <section class="customers">
         <div class="container">
           <h2 class="text-customers">Customers</h2>
@@ -384,10 +401,12 @@
       <div class="container">
         <div class="sociol-icon">
           <div class="sociol-footer">
-            <a class="logo" href="./index.html">Web<span class="footer-logo">studio</span></a>
+            <a class="logo logo-footer-link" href="./index.html"
+              >Web<span class="footer-logo">studio</span></a
+            >
             <p class="footer-text">
-              Increase the flow of customers and sales for your business with digital marketing &
-              growth solutions.
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
             </p>
           </div>
           <div class="sociol-media">
@@ -450,7 +469,9 @@
             <use href="./img/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="desc-modal-wind">Leave your contacts and we will call you back</p>
+        <p class="desc-modal-wind">
+          Leave your contacts and we will call you back
+        </p>
         <form class="modal-form">
           <label class="form-label">
             <span class="input-desc"> Name</span>
@@ -487,7 +508,12 @@
           <label class="form-label">
             <span class="input-desc"> Email</span>
             <span class="icon-modal-input">
-              <input type="text" name="user-email" class="modal-input" required />
+              <input
+                type="text"
+                name="user-email"
+                class="modal-input"
+                required
+              />
               <svg class="icon-modal" width="15" height="12">
                 <use href="./img/sprite.svg#icon-mail"></use>
               </svg>
@@ -495,7 +521,11 @@
           </label>
           <label class="form-label">
             <span class="input-desc"> Comment</span>
-            <textarea name="user-message" class="modal-text" placeholder="Text input"></textarea>
+            <textarea
+              name="user-message"
+              class="modal-text"
+              placeholder="Text input"
+            ></textarea>
           </label>
           <input
             id="user"
@@ -504,12 +534,15 @@
             class="modal-input-check visually-hidden"
           />
           <label for="user" class="check-desc"
-            >I accept the terms and conditions of the&nbsp;<a href="#"> Privacy Polic</a></label
+            >I accept the terms and conditions of the&nbsp;<a href="#">
+              Privacy Polic</a
+            ></label
           >
           <button type="submit" class="form-submit">Send</button>
         </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
